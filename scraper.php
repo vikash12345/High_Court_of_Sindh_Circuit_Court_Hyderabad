@@ -33,8 +33,8 @@ for($i = 1; $i <= 1; $i++)
 						$matter 	= $element->find('td[8]',0)->plaintext;
 						$last 		= $element->find('td[9]',0)->plaintext;
 						//$nextdate 	= $element->find('td[10]',0)->plaintext;
-						$href 		= $element->find('td[11]/a',0)->href;
-						$profilelink 	= 'http://202.83.168.217:8081'.$href;
+						$href 		= $element->find('td[10]/a',0)->href;
+						$profilelink 	= 'http://182.180.72.189:8080'.$href;
 						scraperwiki::save_sqlite(array('num'), array('num' => $num,
 											     				 'sourcename' => $sourcename,
 															 'casename' => $casename,
